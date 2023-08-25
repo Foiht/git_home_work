@@ -2,7 +2,6 @@
 
 int max(int num1, int num2) {
 
-   /* local variable declaration */
    int result;
  
    if (num1 > num2)
@@ -11,4 +10,15 @@ int max(int num1, int num2) {
       result = num2;
  
    return result; 
+}
+
+int main() {
+
+   int a = 100;
+   int b = 200;
+   int ret;
+
+   ret = max(a, b);
+ 
+   printf( "Max value is : %d\n", ret );
 }
