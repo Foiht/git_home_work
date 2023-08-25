@@ -1,4 +1,7 @@
 /* main.c */
-int main(int argc, char *argv[]) {
 
+#include <stdio.h>
+int main() {
+    printf("I am a lumberjack and I'm ok");
+    return 0;
 }
